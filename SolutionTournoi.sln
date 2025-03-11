@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTournoi", "AppTournoi\AppTournoi.csproj", "{4AE864A0-31C0-42A1-B622-B09303BD7720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllTournois", "DllTournois\DllTournois.csproj", "{C70C66D8-B70A-4806-AA55-2ACEAC861586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE864A0-31C0-42A1-B622-B09303BD7720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE864A0-31C0-42A1-B622-B09303BD7720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE864A0-31C0-42A1-B622-B09303BD7720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE864A0-31C0-42A1-B622-B09303BD7720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70C66D8-B70A-4806-AA55-2ACEAC861586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70C66D8-B70A-4806-AA55-2ACEAC861586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70C66D8-B70A-4806-AA55-2ACEAC861586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70C66D8-B70A-4806-AA55-2ACEAC861586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {653A0EE1-53E6-4968-B6FC-E0BBD8790869}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DatabaseSettings>
+  <IpAddress>localhost</IpAddress>
+  <Port>3306</Port>
+  <Username>adminTournois</Username>
+  <Password>Password1234@</Password>
+</DatabaseSettings>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="bddtournois" EntityNamespace="BddtournoiContext" ContextNamespace="BddtournoiContext" Class="BddtournoiDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="a7fc367c-12cb-46d8-8fba-fdfda6218c0f" Provider="Devart.Data.MySql.Linq.Provider.MySqlDataProvider, Devart.Data.MySql.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="User Id=adminTournois;Password=Password1234@;Host=localhost;Database=bddtournois;Persist Security Info=True" Provider="Devart.Data.MySql" />
+  <Table Name="bddtournois.gestionnairesappli" Member="Gestionnairesapplis">
+    <Type Name="Gestionnairesappli" ed:Guid="33c39a37-1069-4781-bb56-e98e73f9da01">
+      <Column Name="idGestionnaire" Member="IdGestionnaire" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="4838d069-5058-4a5f-bb2d-7d6ee0fc482a" />
+      <Column Name="login" Member="Login" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="cda0d82d-7b8e-496b-8967-20d98fc359f0" />
+      <Column Name="motDpass" Member="MotDpass" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="1fdb3492-fa8a-4c4b-8fda-8bac217af019" />
+    </Type>
+  </Table>
+  <Table Name="bddtournois.participant" Member="Participants">
+    <Type Name="Participant" ed:Guid="8947bf4b-f2f0-4f37-9c1c-4253278e6bfa">
+      <Column Name="id" Member="Id" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="29a8b3d8-8c49-45b9-89bf-301bb9d318f3" />
+      <Column Name="prenom" Member="Prenom" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="4e4ef67e-0121-473b-9aff-16406ca6e597" />
+      <Column Name="nom" Member="Nom" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="dacaedb0-fb18-4eb6-887b-c0c9507b2304" />
+      <Column Name="dateNaissance" Member="DateNaissance" Type="System.DateTime" DbType="DATE NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="5e49007d-652d-4f46-99a8-799ebe52dc41" />
+      <Column Name="sexe" Member="Sexe" Type="System.String" DbType="TEXT NULL" CanBeNull="true" UpdateCheck="Never" DefaultValue="&quot;NULL&quot;" ed:ValidateRequired="false" ed:Guid="5ad0b739-3ab6-486f-b70e-2c297f12af94" />
+      <Column Name="photo" Member="Photo" Type="System.Byte[]" DbType="LONGBLOB NULL" CanBeNull="true" UpdateCheck="Never" DefaultValue="NULL" ed:ValidateRequired="false" ed:Guid="368319b0-47c0-4bf9-81e5-543e4727d386" />
+      <Column Name="tournoi" Member="Tournoi" Type="System.Int32" DbType="INT(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" Precision="11" ed:ValidateRequired="true" ed:Guid="1d7b0148-da5e-416b-8118-02cf2859481d" />
+      <Association Name="Tournoi_Participant" ed:AssociationGuid="2c36ae53-deb3-4dd3-abcf-c258334cdace" Member="Tournoi1" ed:Guid="6bc72f20-d7c1-4888-81af-0ecea205441b" ThisKey="Tournoi" OtherKey="IdTournoi" Type="Tournoi" DeleteRule="RESTRICT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="bddtournois.sport" Member="Sports">
+    <Type Name="Sport" ed:Guid="ca602239-edc9-4669-8df4-7302c345beef">
+      <Column Name="idSport" Member="IdSport" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="474a6e20-e11d-41e2-bc08-b7d11e292e17" />
+      <Column Name="intitule" Member="Intitule" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="00121e19-a0f7-4c33-8e58-8a180a753a88" />
+      <Association Name="Sport_Tournoi" ed:AssociationGuid="6435f2f9-d94c-4afd-a5ff-9dafbe93c967" Member="Tournois" ed:Guid="ea17ecef-8a23-40c5-97b1-82190289ab06" ThisKey="IdSport" OtherKey="Sport" Type="Tournoi" />
+    </Type>
+  </Table>
+  <Table Name="bddtournois.tournoi" Member="Tournois">
+    <Type Name="Tournoi" ed:Guid="d46961d2-3595-48fb-998b-7a6f98951bd4">
+      <Column Name="idTournoi" Member="IdTournoi" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="9f71a430-2f76-4557-8fdf-da30a8510990" />
+      <Column Name="intitule" Member="Intitule" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="831995cb-32c9-46de-8371-d30ec3cb6b9d" />
+      <Column Name="dateTournoi" Member="DateTournoi" Type="System.DateTime" DbType="DATE NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="62836f0a-acaf-431a-bb98-c3b178a44183" />
+      <Column Name="Sport" Type="System.Int32" DbType="INT(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" Precision="11" ed:ValidateRequired="true" ed:Guid="80dbe196-b75b-48ec-9408-3335a88fb726" />
+      <Association Name="Tournoi_Participant" ed:AssociationGuid="2c36ae53-deb3-4dd3-abcf-c258334cdace" Member="Participants" ed:Guid="c5cfcf0f-7455-4425-8ac1-5dd2673fed23" ThisKey="IdTournoi" OtherKey="Tournoi" Type="Participant" />
+      <Association Name="Sport_Tournoi" ed:AssociationGuid="6435f2f9-d94c-4afd-a5ff-9dafbe93c967" Member="Sport1" ed:Guid="f029b47f-a4f2-42b4-9359-8705aea1fc63" ThisKey="Sport" OtherKey="IdSport" Type="Sport" DeleteRule="RESTRICT" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
