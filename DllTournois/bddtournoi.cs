@@ -50,5 +50,64 @@ namespace DllTournois
         {
             return bdd.Participants.Where(p => p.Nom.ToLower().Contains(name.ToLower())).ToList();
         }
+
+
+        public void AddTournoi(Tournoi tournoi)
+        {
+            bdd.Tournois.InsertOnSubmit(tournoi);
+            bdd.SubmitChanges();
+        }
+
+        public void UpdateTournoi(Tournoi tournoi)
+        {
+            var existingTournoi = bdd.Tournois.SingleOrDefault(t => t.IdTournoi == tournoi.IdTournoi);
+
+            if (existingTournoi != null)
+            {
+                existingTournoi.Intitule = tournoi.Intitule;
+                existingTournoi.DateTournoi = tournoi.DateTournoi;
+                existingTournoi.Sport = tournoi.Sport;
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void DeleteTournoi(int idTournoi)
+        {
+            var tournoi = bdd.Tournois.SingleOrDefault(t => t.IdTournoi == idTournoi);
+
+            if (tournoi != null)
+            {
+                bdd.Tournois.DeleteOnSubmit(tournoi);
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void AddSport(Sport sport)
+        {
+            bdd.Sports.InsertOnSubmit(sport);
+            bdd.SubmitChanges();
+        }
+
+        public void UpdateSport(Sport sport)
+        {
+            var existingSport = bdd.Sports.SingleOrDefault(s => s.IdSport == sport.IdSport);
+
+            if (existingSport != null)
+            {
+                existingSport.Intitule = sport.Intitule;
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void DeleteSport(int idSport)
+        {
+            var sport = bdd.Sports.SingleOrDefault(s => s.IdSport == idSport);
+
+            if(sport != null)
+            {
+                bdd.Sports.DeleteOnSubmit(sport);
+                bdd.SubmitChanges();
+            }
+        }
     }
 }

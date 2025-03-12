@@ -28,13 +28,13 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <Menu Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="8">
+        <Menu x:Name="MainMenu" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="8">
             <MenuItem Header="Connexion BDD" Click="ConnexionBDD_Click" IsEnabled="True"/>
             <MenuItem Click="ListeParticipantsMenuClick" Header="Liste de tous les participants" IsEnabled="True"/>
-            <MenuItem Header="Gestion Tournois" IsEnabled="False"/>
-            <MenuItem Header="Gestion Sports" IsEnabled="False"/>
+            <MenuItem Header="Gestion Tournois" IsEnabled="False" Click="GestionTournoisMenu_Click"/>
+            <MenuItem Header="Gestion Sports" IsEnabled="False" Click="GestionSportsMenu_Click"/>
             <MenuItem Header="Gestion Participants" IsEnabled="False"/>
-            <MenuItem Header="Gestionnaire" IsEnabled="False"/>
+            <MenuItem Click="GestionnaireMenu_Click" Header="Gestionnaire" />
             <MenuItem Click="DatabaseSettings_Click" Header="Paramètres BDD" IsEnabled="True"/>
         </Menu>
 

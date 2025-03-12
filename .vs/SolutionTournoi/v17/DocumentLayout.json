@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtouk\\Desktop\\test\\tournois\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\xtouk\\desktop\\test\\tournois\\apptournoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\xtouk\\Desktop\\test\\tournois\\AppTournoi\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\xtouk\\Desktop\\test\\tournois\\AppTournoi\\MainWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T15:47:08.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

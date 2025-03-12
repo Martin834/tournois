@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using AppTournoi.GestionnaireSport;
 using BddtournoiContext;
 using DllTournois;
 
@@ -126,11 +127,40 @@ namespace AppTournoi
             }
         }
 
+        private void GestionnaireMenu_Click(Object sender, RoutedEventArgs e)
+        {
+            AuthenticationWindow authenticationWindow = new AuthenticationWindow();
+            bool? result = authenticationWindow.ShowDialog();
+
+            if (result == true)
+            {
+                foreach (var item in MainMenu.Items)
+                {
+                    if (item is MenuItem menuItem && menuItem.Header.ToString().StartsWith("Gestion"))
+                    {
+                        menuItem.IsEnabled = true;
+                    }
+                }
+            }
+        }
+
 
         private void ListeParticipantsMenuClick(object sender, EventArgs e)
         {
             Window w = new ListeParticipantsWindow();
             w.Show();
+        }
+
+        private void GestionTournoisMenu_Click(object sender, RoutedEventArgs e)
+        {
+            GestionTournoiWindow gestionTournoiWindow = new GestionTournoiWindow();
+            gestionTournoiWindow.ShowDialog();
+        }
+
+        private void GestionSportsMenu_Click(object sender, RoutedEventArgs e)
+        {
+            GestionSportWindow gestionSportWindow = new GestionSportWindow();
+            gestionSportWindow.ShowDialog();
         }
     }
 }
