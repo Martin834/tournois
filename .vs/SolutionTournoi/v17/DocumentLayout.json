@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\houll\\Desktop\\tournois\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|c:\\users\\houll\\desktop\\tournois\\dlltournois\\datacontextbddtournoi.edps||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|solutionrelative:dlltournois\\datacontextbddtournoi.edps||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|c:\\users\\houll\\desktop\\tournois\\dlltournois\\datacontextbddtournoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|solutionrelative:dlltournois\\datacontextbddtournoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|c:\\users\\houll\\desktop\\tournois\\dlltournois\\datacontextbddtournoi.diagram1.view||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}",
+      "RelativeMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|solutionrelative:dlltournois\\datacontextbddtournoi.diagram1.view||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnaireparticipant\\ajouterparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnaireparticipant\\ajouterparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnairesport\\ajoutersportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnairesport\\ajoutersportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnaireparticipant\\gestionparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnaireparticipant\\gestionparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|c:\\users\\houll\\desktop\\tournois\\dlltournois\\bddtournoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C66D8-B70A-4806-AA55-2ACEAC861586}|DllTournois\\DllTournois.csproj|solutionrelative:dlltournois\\bddtournoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnaireparticipant\\ajouterparticipantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnaireparticipant\\ajouterparticipantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnaireparticipant\\modifierparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnaireparticipant\\modifierparticipantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnaireparticipant\\gestionparticipantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnaireparticipant\\gestionparticipantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnairesport\\modifiersportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnairesport\\modifiersportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnairesport\\modifiersportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnairesport\\modifiersportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|c:\\users\\houll\\desktop\\tournois\\apptournoi\\gestionnairesport\\gestionsportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AE864A0-31C0-42A1-B622-B09303BD7720}|AppTournoi\\AppTournoi.csproj|solutionrelative:apptournoi\\gestionnairesport\\gestionsportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,35 +70,199 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AppTournoi\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AppTournoi\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwMYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:46:48.727Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\Participant.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\Participant.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\Participant.cs",
+              "RelativeToolTip": "AppTournoi\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:40:09.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AppTournoi\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml",
-              "RelativeToolTip": "AppTournoi\\MainWindow.xaml",
+              "Title": "DataContextBddTournoi.edps",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.edps",
+              "RelativeDocumentMoniker": "DllTournois\\DataContextBddTournoi.edps",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.edps",
+              "RelativeToolTip": "DllTournois\\DataContextBddTournoi.edps",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T14:38:50.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContextBddTournoi (Diagram1)",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.Diagram1.view",
+              "RelativeDocumentMoniker": "DllTournois\\DataContextBddTournoi.Diagram1.view",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.Diagram1.view",
+              "RelativeToolTip": "DllTournois\\DataContextBddTournoi.Diagram1.view",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T14:38:42.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataContextBddTournoi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.Designer.cs",
+              "RelativeDocumentMoniker": "DllTournois\\DataContextBddTournoi.Designer.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\DataContextBddTournoi.Designer.cs",
+              "RelativeToolTip": "DllTournois\\DataContextBddTournoi.Designer.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAnwHUBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:26:53.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AjouterParticipantWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml.cs",
+              "RelativeToolTip": "AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowD8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:47:19.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AjouterSportWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\AjouterSportWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireSport\\AjouterSportWindow.xaml",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\AjouterSportWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\GestionnaireSport\\AjouterSportWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T15:47:08.494Z",
+              "WhenOpened": "2025-03-13T13:29:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AppTournoi\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:01:32.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestionParticipantWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml.cs",
+              "RelativeToolTip": "AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:45:46.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bddtournoi.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\bddtournoi.cs",
+              "RelativeDocumentMoniker": "DllTournois\\bddtournoi.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\DllTournois\\bddtournoi.cs",
+              "RelativeToolTip": "DllTournois\\bddtournoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:26:01.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AjouterParticipantWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\GestionnaireParticipant\\AjouterParticipantWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T13:46:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModifierParticipantWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\ModifierParticipantWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireParticipant\\ModifierParticipantWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\ModifierParticipantWindow.xaml.cs",
+              "RelativeToolTip": "AppTournoi\\GestionnaireParticipant\\ModifierParticipantWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:48:33.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GestionSportWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\GestionSportWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireSport\\GestionSportWindow.xaml",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\GestionSportWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\GestionnaireSport\\GestionSportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T13:30:31.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GestionParticipantWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\GestionnaireParticipant\\GestionParticipantWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T13:44:25.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ModifierSportWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml.cs",
+              "RelativeToolTip": "AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:30:52.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModifierSportWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml",
+              "RelativeDocumentMoniker": "AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml",
+              "ToolTip": "C:\\Users\\houll\\Desktop\\tournois\\AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml",
+              "RelativeToolTip": "AppTournoi\\GestionnaireSport\\ModifierSportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T13:30:43.426Z",
               "EditorCaption": ""
             }
           ]

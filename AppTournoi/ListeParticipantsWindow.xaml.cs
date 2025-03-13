@@ -13,7 +13,7 @@ namespace AppTournoi
 {
     public partial class ListeParticipantsWindow : Window
     {
-        private bddtournoi dbContext;
+        private bddtournoi bdd;
         private List<Participant> allParticipants;
         public ListeParticipantsWindow()
         {
@@ -24,9 +24,17 @@ namespace AppTournoi
             string username = ConfigurationManager.AppSettings["Username"];
             string password = ConfigurationManager.AppSettings["Password"];
 
-            dbContext = new bddtournoi(username, password, ipAddress, port);
+            bdd = new bddtournoi(username, password, ipAddress, port);
 
-            allParticipants = dbContext.GetAllParticipants();
+            allParticipants = bdd.GetAllParticipants().Select(p => new Participant
+            {
+                Nom = p.Nom,
+                Prenom = p.Prenom,
+                DateNaissance = p.DateNaissance,
+                Sexe = p.Sexe,
+                Photo = p.Photo,
+                Tournoi = p.Tournoi
+            }).ToList();
 
             ParticipantsInfo.ItemsSource = allParticipants;
         }
@@ -49,7 +57,15 @@ namespace AppTournoi
                 ErrorMessage.Visibility = Visibility.Collapsed;
             }
 
-            var filteredParticipants = dbContext.GetParticipantByName(searchText);
+            var filteredParticipants = bdd.GetParticipantByName(searchText).Select(p => new Participant
+            {
+                Nom = p.Nom,
+                Prenom = p.Prenom,
+                DateNaissance = p.DateNaissance,
+                Sexe = p.Sexe,
+                Photo = p.Photo,
+                Tournoi = p.Tournoi
+            }).ToList();
             ParticipantsInfo.ItemsSource = filteredParticipants;
         }
 

@@ -74,6 +74,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GestionnaireParticipant\AjouterParticipantWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionnaireParticipant\GestionParticipantWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionnaireParticipant\ModifierParticipantWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GestionnaireSport\AjouterSportWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +126,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="GestionnaireParticipant\AjouterParticipantWindow.xaml.cs">
+      <DependentUpon>AjouterParticipantWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionnaireParticipant\GestionParticipantWindow.xaml.cs">
+      <DependentUpon>GestionParticipantWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionnaireParticipant\ModifierParticipantWindow.xaml.cs">
+      <DependentUpon>ModifierParticipantWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GestionnaireSport\AjouterSportWindow.xaml.cs">
       <DependentUpon>AjouterSportWindow.xaml</DependentUpon>
     </Compile>
@@ -151,6 +172,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Participant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -183,5 +205,6 @@
       <Name>DllTournois</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

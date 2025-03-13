@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,7 +27,13 @@ namespace AppTournoi.GestionnaireSport
             public GestionSportWindow()
             {
                 InitializeComponent();
-                bdd = new bddtournoi("adminTournois", "Password1234@", "localhost", "3306");
+
+                string ipAddress = ConfigurationManager.AppSettings["IpAddress"];
+                string port = ConfigurationManager.AppSettings["Port"];
+                string username = ConfigurationManager.AppSettings["Username"];
+                string password = ConfigurationManager.AppSettings["Password"];
+
+                bdd = new bddtournoi(username, password, ipAddress, port);
                 LoadSports();
             }
 

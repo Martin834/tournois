@@ -4,6 +4,7 @@ using System.Windows;
 using DllTournois;
 using BddtournoiContext;
 using AppTournoi.GestionnaireTournoi;
+using System.Configuration;
 
 namespace AppTournoi
 {
@@ -15,7 +16,15 @@ namespace AppTournoi
         public GestionTournoiWindow()
         {
             InitializeComponent();
-            bdd = new bddtournoi("adminTournois", "Password1234@", "localhost", "3306");
+
+            // Lire les paramètres de connexion de la configuration
+            string ipAddress = ConfigurationManager.AppSettings["IpAddress"];
+            string port = ConfigurationManager.AppSettings["Port"];
+            string username = ConfigurationManager.AppSettings["Username"];
+            string password = ConfigurationManager.AppSettings["Password"];
+
+            bdd = new bddtournoi(username, password, ipAddress, port);
+
             LoadTournois();
             LoadSports();
         }

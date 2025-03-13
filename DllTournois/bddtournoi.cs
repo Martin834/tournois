@@ -46,6 +46,11 @@ namespace DllTournois
             return bdd.Tournois.FirstOrDefault(t => t.Intitule == name);
         }
 
+        public Gestionnairesappli GetGestionnaireById(int id)
+        {
+            return bdd.Gestionnairesapplis.FirstOrDefault(g => g.IdGestionnaire == id);
+        }
+
         public List<Participant> GetParticipantByName(string name)
         {
             return bdd.Participants.Where(p => p.Nom.ToLower().Contains(name.ToLower())).ToList();
@@ -106,6 +111,35 @@ namespace DllTournois
             if(sport != null)
             {
                 bdd.Sports.DeleteOnSubmit(sport);
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void AddParticipant(Participant participant)
+        {
+            bdd.Participants.InsertOnSubmit(participant);
+            bdd.SubmitChanges();
+        }
+
+        public void UpdateParticipant(Participant participant)
+        {
+            var existingParticipant = bdd.Participants.SingleOrDefault(p => p.Id == participant.Id);
+            if (existingParticipant != null)
+            {
+                existingParticipant.Nom = participant.Nom;
+                existingParticipant.Prenom = participant.Prenom;
+                existingParticipant.DateNaissance = participant.DateNaissance;
+                existingParticipant.Sexe = participant.Sexe;
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void DeleteParticipant(int idParticipant)
+        {
+            var participant = bdd.Participants.SingleOrDefault(p => p.Id == idParticipant);
+            if (participant != null)
+            {
+                bdd.Participants.DeleteOnSubmit(participant);
                 bdd.SubmitChanges();
             }
         }

@@ -139,3 +139,9 @@ C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\AppTournoi.csproj.CoreCompi
 C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\AppTournoi.csproj.Up2Date
 C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\AppTournoi.exe
 C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\AppTournoi.pdb
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\AjouterParticipantWindow.g.cs
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\GestionParticipantWindow.g.cs
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\ModifierParticipantWindow.g.cs
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\AjouterParticipantWindow.baml
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\GestionParticipantWindow.baml
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionnaireParticipant\ModifierParticipantWindow.baml

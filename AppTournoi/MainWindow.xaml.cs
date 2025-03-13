@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using AppTournoi.GestionnaireParticipant;
 using AppTournoi.GestionnaireSport;
 using BddtournoiContext;
 using DllTournois;
@@ -194,6 +195,12 @@ namespace AppTournoi
         {
             GestionSportWindow gestionSportWindow = new GestionSportWindow();
             gestionSportWindow.ShowDialog();
+        }
+
+        private void GestionParticipantsMenu_Click(object sender, RoutedEventArgs e)
+        {
+            GestionParticipantWindow gestionParticipantWindow = new GestionParticipantWindow();
+            gestionParticipantWindow.ShowDialog();
         }
     }
 }

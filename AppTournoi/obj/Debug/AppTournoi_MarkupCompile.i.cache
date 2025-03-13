@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\xtouk\Desktop\tournois-main\AppTournoi\obj\Debug\
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\
 AppTournoi
 none
 false
 DEBUG;TRACE
-C:\Users\xtouk\Desktop\tournois-main\AppTournoi\App.xaml
-10-992436154
+C:\Users\houll\Desktop\tournois\AppTournoi\App.xaml
+131326565644
 
-151174087822
-22369065477
-GestionnaireSport\AjouterSportWindow.xaml;GestionnaireSport\GestionSportWindow.xaml;GestionnaireSport\ModifierSportWindow.xaml;GestionnaireTournoi\AjouterTournoiWindow.xaml;AuthenticationWindow.xaml;DatabaseSettings.xaml;GestionnaireTournoi\GestionTournoiWindow.xaml;GestionnaireTournoi\ModifierTournoiWindow.xaml;ListeParticipantsWindow.xaml;MainWindow.xaml;
+19-718789923
+221885325230
+GestionnaireParticipant\AjouterParticipantWindow.xaml;GestionnaireParticipant\GestionParticipantWindow.xaml;GestionnaireParticipant\ModifierParticipantWindow.xaml;GestionnaireSport\AjouterSportWindow.xaml;GestionnaireSport\GestionSportWindow.xaml;GestionnaireSport\ModifierSportWindow.xaml;GestionnaireTournoi\AjouterTournoiWindow.xaml;AuthenticationWindow.xaml;DatabaseSettings.xaml;GestionnaireTournoi\GestionTournoiWindow.xaml;GestionnaireTournoi\ModifierTournoiWindow.xaml;ListeParticipantsWindow.xaml;MainWindow.xaml;
 
 True
 
