@@ -17,6 +17,35 @@ namespace AppTournoi
         public MainWindow()
         {
             InitializeComponent();
+            SetMenuState(false);
+        }
+
+        private void SetMenuState(bool isConnected)
+        {
+            foreach (var item in MainMenu.Items)
+            {
+                if (item is MenuItem menuItem)
+                {
+                    if (menuItem.Header.ToString() == "Base de Données")
+                    {
+                        foreach (MenuItem subItem in menuItem.Items)
+                        {
+                            if (subItem.Header.ToString() == "Connexion BDD" || subItem.Header.ToString() == "Paramètres BDD")
+                            {
+                                subItem.IsEnabled = true;
+                            }
+                            else
+                            {
+                                subItem.IsEnabled = isConnected;
+                            }
+                        }
+                    }
+                    else if (menuItem.Header.ToString() == "Gestion")
+                    {
+                        menuItem.IsEnabled = isConnected;
+                    }
+                }
+            }
         }
 
         private void DatabaseSettings_Click(object sender, RoutedEventArgs e)
@@ -47,10 +76,15 @@ namespace AppTournoi
                 dbContext = new bddtournoi(username, password, ipAddress, port);
 
                 // Charger la liste des sports
-                var sports = dbContext.GetAllSports();
+                var sports = dbContext.GetAllSports().Select(s => new AppTournoi.Sport
+                {
+                    IdSport = s.IdSport,
+                    Intitule = s.Intitule
+                }).ToList();
                 ListeSports.ItemsSource = sports;
 
                 MessageBox.Show("Connexion réussie !");
+                SetMenuState(true);
             }
             catch (Exception ex)
             {
@@ -62,7 +96,7 @@ namespace AppTournoi
         {
             if (ListeSports.SelectedItem != null)
             {
-                var selectedSport = (Sport)ListeSports.SelectedItem;
+                var selectedSport = (AppTournoi.Sport)ListeSports.SelectedItem;
 
                 try
                 {
@@ -143,7 +177,6 @@ namespace AppTournoi
                 }
             }
         }
-
 
         private void ListeParticipantsMenuClick(object sender, EventArgs e)
         {

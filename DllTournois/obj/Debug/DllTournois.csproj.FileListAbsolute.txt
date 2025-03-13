@@ -37,3 +37,17 @@ C:\Users\xtouk\Desktop\tournois-main\DllTournois\bin\Debug\Microsoft.Win32.Regis
 C:\Users\xtouk\Desktop\tournois-main\DllTournois\bin\Debug\System.Diagnostics.PerformanceCounter.dll
 C:\Users\xtouk\Desktop\tournois-main\DllTournois\bin\Debug\System.Security.AccessControl.dll
 C:\Users\xtouk\Desktop\tournois-main\DllTournois\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\DllTournois.dll.config
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\DllTournois.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\DllTournois.pdb
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\Devart.Data.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\Devart.Data.MySql.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\System.Security.AccessControl.dll
+C:\Users\houll\Desktop\tournois\DllTournois\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\houll\Desktop\tournois\DllTournois\obj\Debug\DllTournois.csproj.AssemblyReference.cache
+C:\Users\houll\Desktop\tournois\DllTournois\obj\Debug\DllTournois.csproj.CoreCompileInputs.cache
+C:\Users\houll\Desktop\tournois\DllTournois\obj\Debug\DllTourn.4CFA5AB7.Up2Date
+C:\Users\houll\Desktop\tournois\DllTournois\obj\Debug\DllTournois.dll
+C:\Users\houll\Desktop\tournois\DllTournois\obj\Debug\DllTournois.pdb
