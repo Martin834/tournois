@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppTournoi.GestionnaireParticipant"
         mc:Ignorable="d"
-        Title="Ajouter un Participant" Height="400" Width="400">
+        Title="Ajouter un Participant" Height="400" Width="400" MinHeight="400" MinWidth="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

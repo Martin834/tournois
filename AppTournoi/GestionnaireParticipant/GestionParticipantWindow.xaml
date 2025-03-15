@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppTournoi.GestionnaireParticipant"
         mc:Ignorable="d"
-        Title="Gestion des Participants" Height="500" Width="800">
+        Title="Gestion des Participants" Height="450" Width="920" MinHeight="450" MinWidth="920">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

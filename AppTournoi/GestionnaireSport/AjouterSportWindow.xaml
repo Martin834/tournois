@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppTournoi.GestionnaireSport"
         mc:Ignorable="d"
-        Title="Ajouter un Sport" Height="150" Width="400">
+        Title="Ajouter un Sport" Height="150" Width="400" MinHeight="150" MinWidth="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

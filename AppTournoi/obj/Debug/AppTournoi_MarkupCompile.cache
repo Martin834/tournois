@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\
+C:\Users\marti\Documents\tournois\tournois\AppTournoi\obj\Debug\
 AppTournoi
 none
 false
 DEBUG;TRACE
-C:\Users\houll\Desktop\tournois\AppTournoi\App.xaml
+C:\Users\marti\Documents\tournois\tournois\AppTournoi\App.xaml
 131326565644
 
 181363298695
-221885325230
+221036648458
 GestionnaireParticipant\AjouterParticipantWindow.xaml;GestionnaireParticipant\GestionParticipantWindow.xaml;GestionnaireParticipant\ModifierParticipantWindow.xaml;GestionnaireSport\AjouterSportWindow.xaml;GestionnaireSport\GestionSportWindow.xaml;GestionnaireSport\ModifierSportWindow.xaml;GestionnaireTournoi\AjouterTournoiWindow.xaml;AuthenticationWindow.xaml;DatabaseSettings.xaml;GestionnaireTournoi\GestionTournoiWindow.xaml;GestionnaireTournoi\ModifierTournoiWindow.xaml;ListeParticipantsWindow.xaml;MainWindow.xaml;
 
 False
