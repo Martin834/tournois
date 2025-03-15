@@ -57,7 +57,8 @@ namespace AppTournoi.GestionnaireParticipant
             }
             else
             {
-                MessageBox.Show("Veuillez sélectionner un participant à modifier.");
+                MessageBox.Show("Veuillez sélectionner un participant à modifier.", "Information",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 

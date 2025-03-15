@@ -74,7 +74,8 @@ namespace AppTournoi
             }
             else
             {
-                MessageBox.Show("Veuillez sélectionner un tournoi à modifier.");
+                MessageBox.Show("Veuillez sélectionner un tournoi à modifier.", "Information",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 

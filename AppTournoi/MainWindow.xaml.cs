@@ -84,12 +84,11 @@ namespace AppTournoi
                 }).ToList();
                 ListeSports.ItemsSource = sports;
 
-                MessageBox.Show("Connexion réussie !");
                 SetMenuState(true);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erreur de connexion : " + ex.Message);
+                MessageBox.Show("Erreur de connexion : " + ex.Message, "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

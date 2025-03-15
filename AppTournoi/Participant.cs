@@ -4,6 +4,7 @@ namespace AppTournoi
 {
     internal class Participant
     {
+        public int Id { get; internal set; }
         public string Nom { get; internal set; }
         public string Prenom { get; internal set; }
         public DateTime DateNaissance { get; internal set; }
@@ -15,6 +16,7 @@ namespace AppTournoi
         {
             return new BddtournoiContext.Participant
             {
+                Id = Id,
                 Nom = Nom,
                 Prenom = Prenom,
                 DateNaissance = DateNaissance,

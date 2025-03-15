@@ -28,6 +28,7 @@ namespace AppTournoi
 
             allParticipants = bdd.GetAllParticipants().Select(p => new Participant
             {
+                Id = p.Id,
                 Nom = p.Nom,
                 Prenom = p.Prenom,
                 DateNaissance = p.DateNaissance,

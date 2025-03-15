@@ -34,7 +34,7 @@ namespace AppTournoi
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("appSettings");
 
-            MessageBox.Show("Paramètres enregistrés avec succès !");
+            MessageBox.Show("Paramètres enregistrés avec succès !", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 
             this.Close();
         }

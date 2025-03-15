@@ -38,7 +38,7 @@ namespace AppTournoi
             }
             else
             {
-                MessageBox.Show("Nom d'utilisateur ou mot de passe incorrect.");
+                MessageBox.Show("Nom d'utilisateur ou mot de passe incorrect.", "Attention", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
 

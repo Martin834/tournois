@@ -70,7 +70,8 @@ namespace AppTournoi.GestionnaireSport
                 }
                 else
                 {
-                    MessageBox.Show("Veuillez sélectionner un sport à modifier.");
+                    MessageBox.Show("Veuillez sélectionner un sport à modifier.", "Information",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }
 
