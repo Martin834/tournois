@@ -33,6 +33,7 @@
             <MenuItem Click="ListeParticipantsMenuClick" Header="Liste de tous les participants" IsEnabled="True"/>
             <MenuItem Header="Gestion Tournois" IsEnabled="False" Click="GestionTournoisMenu_Click"/>
             <MenuItem Header="Gestion Sports" IsEnabled="False" Click="GestionSportsMenu_Click"/>
+            <MenuItem Header="Gestion Gestionnaires" IsEnabled="False" Click="GestionGestionnairesMenu_Click"/>
             <MenuItem Click="GestionParticipantsMenu_Click" Header="Gestion Participants" IsEnabled="False"/>
             <MenuItem Click="GestionnaireMenu_Click" Header="Gestionnaire" />
             <MenuItem Click="DatabaseSettings_Click" Header="Paramètres BDD" IsEnabled="True"/>

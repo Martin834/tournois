@@ -74,6 +74,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GestionGestionnaire\AjouterGestionnaireWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionGestionnaire\GestionGestionnaireWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionGestionnaire\ModifierGestionnaireWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GestionnaireParticipant\AjouterParticipantWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -126,6 +138,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="BddtournoiContext\Gestionnaire.cs" />
+    <Compile Include="GestionGestionnaire\AjouterGestionnaireWindow.xaml.cs">
+      <DependentUpon>AjouterGestionnaireWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionGestionnaire\GestionGestionnaireWindow.xaml.cs">
+      <DependentUpon>GestionGestionnaireWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionGestionnaire\ModifierGestionnaireWindow.xaml.cs">
+      <DependentUpon>ModifierGestionnaireWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gestionnaire.cs" />
     <Compile Include="GestionnaireParticipant\AjouterParticipantWindow.xaml.cs">
       <DependentUpon>AjouterParticipantWindow.xaml</DependentUpon>
     </Compile>

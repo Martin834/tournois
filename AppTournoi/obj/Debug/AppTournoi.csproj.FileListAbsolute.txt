@@ -198,3 +198,6 @@ C:\Users\marti\Documents\tournois\tournois\AppTournoi\obj\Debug\AppTournoi.cspro
 C:\Users\marti\Documents\tournois\tournois\AppTournoi\obj\Debug\AppTournoi.csproj.Up2Date
 C:\Users\marti\Documents\tournois\tournois\AppTournoi\obj\Debug\AppTournoi.exe
 C:\Users\marti\Documents\tournois\tournois\AppTournoi\obj\Debug\AppTournoi.pdb
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionGestionnaire\AjouterGestionnaireWindow.g.cs
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionGestionnaire\GestionGestionnaireWindow.g.cs
+C:\Users\houll\Desktop\tournois\AppTournoi\obj\Debug\GestionGestionnaire\ModifierGestionnaireWindow.g.cs

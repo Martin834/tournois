@@ -41,6 +41,11 @@ namespace DllTournois
             return bdd.Participants.ToList();
         }
 
+        public List<Gestionnairesappli> GetAllGestionnaires()
+        {
+            return bdd.Gestionnairesapplis.ToList();
+        }
+
         public Tournoi GetTournoiByName(string name)
         {
             return bdd.Tournois.FirstOrDefault(t => t.Intitule == name);
@@ -140,6 +145,35 @@ namespace DllTournois
             if (participant != null)
             {
                 bdd.Participants.DeleteOnSubmit(participant);
+                bdd.SubmitChanges();
+            }
+        }
+
+
+        public void AddGestionnaire(Gestionnairesappli gestionnaireAppli)
+        {
+            bdd.Gestionnairesapplis.InsertOnSubmit(gestionnaireAppli);
+            bdd.SubmitChanges();
+        }
+
+        public void UpdateGestionnaire(Gestionnairesappli gestionnaireAppli)
+        {
+            var existingGestionnaire = bdd.Gestionnairesapplis.SingleOrDefault(s => s.IdGestionnaire == gestionnaireAppli.IdGestionnaire);
+
+            if (existingGestionnaire != null)
+            {
+                existingGestionnaire.Login = gestionnaireAppli.Login;
+                bdd.SubmitChanges();
+            }
+        }
+
+        public void DeleteGestionnaire(int idGestionnaire)
+        {
+            var gestionnaire = bdd.Gestionnairesapplis.SingleOrDefault(s => s.IdGestionnaire == idGestionnaire);
+
+            if (gestionnaire != null)
+            {
+                bdd.Gestionnairesapplis.DeleteOnSubmit(gestionnaire);
                 bdd.SubmitChanges();
             }
         }
